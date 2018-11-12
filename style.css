@@ -1,0 +1,66 @@
+.grid-container {
+    width: 100%;
+    max-width: 1170px;
+    box-sizing: border-box
+}
+
+[class*='col-'] {
+    float: left;
+    min-height: 1px;
+    width: 16.66%;
+    padding: 10px 15px;
+    background-color: hotpink;
+    border: 1px solid gray
+}
+
+
+col-1 {
+    width: 10%
+}
+
+.col-2 {
+    width: 20%
+}
+
+.col-3 {
+    width: 30%
+}
+
+.col-4 {
+    width: 40%
+}
+
+.col-5 {
+    width: 50%
+}
+
+.col-6 {
+    width: 60%
+}
+
+.col-7 {
+    width: 70%
+}
+
+.col-8 {
+    width: 80%
+}
+
+.col-9 {
+    width: 90%
+}
+
+.col-10 {
+    width: 100%
+}
+
+/* ------------------- 
+    CLEARFIX 
+   ------------------- */
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
