@@ -1,20 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    white-space: nowrap
+}
+
 .grid-container {
     width: 100%;
-    max-width: 1170px;
-    box-sizing: border-box
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+    clear: both
 }
 
 [class*='col-'] {
     float: left;
     min-height: 1px;
-    width: 16.66%;
     padding: 10px 15px;
     background-color: hotpink;
-    border: 1px solid gray
+    border: 1px solid gray;
 }
 
 
-col-1 {
+.col-1 {
     width: 10%
 }
 
@@ -54,13 +64,21 @@ col-1 {
     width: 100%
 }
 
+
 /* ------------------- 
-    CLEARFIX 
+    RESPONSIVE 
    ------------------- */
 
-.row:before,
-.row:after {
-    content: "";
-    display: table;
-    clear: both
-}
+@media all and (max-width: 500px) {
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10 {
+        width: 100%;
+    }
