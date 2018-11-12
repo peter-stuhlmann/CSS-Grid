@@ -1,11 +1,15 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    white-space: nowrap
+    white-space: nowrap;
+    font-family: Verdana, sans-serif;
+    color: #fff;
+text-shadow: 1px 1px rgba(0,0,0,0.5);
 }
 
 .grid-container {
     width: 100%;
+    text-align: center
 }
 
 .row:before,
@@ -17,10 +21,11 @@
 
 [class*='col-'] {
     float: left;
-    min-height: 1px;
-    padding: 10px 15px;
+    min-height: 5px;
+    padding: 12px 15px;
     background-color: hotpink;
-    border: 1px solid gray;
+    border: 5px solid #fff;
+    border-radius: 8px;
 }
 
 
