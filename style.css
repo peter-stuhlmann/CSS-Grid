@@ -34,7 +34,7 @@
     padding: 10px 15px
 }
 
-[class*='col-']:hover {
+[class*='col-'] p:hover {
     background-color: yellow;
     color: #000;
     text-shadow: none
