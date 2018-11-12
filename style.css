@@ -3,8 +3,6 @@
     margin: 0;
     white-space: nowrap;
     font-family: Verdana, sans-serif;
-    color: #fff;
-text-shadow: 1px 1px rgba(0,0,0,0.5);
 }
 
 .grid-container {
@@ -26,8 +24,16 @@ text-shadow: 1px 1px rgba(0,0,0,0.5);
     background-color: hotpink;
     border: 5px solid #fff;
     border-radius: 8px;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    transition: 0.2s
 }
 
+[class*='col-']:hover {
+    background-color: yellow;
+    color: #000;
+    text-shadow: none
+}
 
 .col-1 {
     width: 10%
@@ -75,6 +81,7 @@ text-shadow: 1px 1px rgba(0,0,0,0.5);
    ------------------- */
 
 @media all and (max-width: 500px) {
+
     .col-1,
     .col-2,
     .col-3,
