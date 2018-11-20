@@ -40,6 +40,10 @@
     text-shadow: none
 }
 
+.col-05 {
+    width: 5%
+}
+
 .col-1 {
     width: 10%
 }
