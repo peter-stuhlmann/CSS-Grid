@@ -127,29 +127,52 @@
 
 @media all and (max-width: 700px) {
 
+    .col-05,
     .col-1,
+    .col-15,
     .col-2,
+    .col-25,
     .col-3,
+    .col-35,
     .col-4,
-    .col-5,
-    .col-6,
-    .col-7,
-    .col-8,
-    .col-9 {
+    .col-45,
+    .col-5 {
         width: 50%;
+    }
+    
+    .col-55,
+    .col-6,
+    .col-65,
+    .col-7,
+    .col-75,
+    .col-8,
+    .col-85,
+    .col-9,
+    .col-95 {
+        width: 100%;
     }
     
 @media all and (max-width: 500px) {
 
+    .col-05,
     .col-1,
+    .col-15,
     .col-2,
+    .col-25,
     .col-3,
+    .col-35,
     .col-4,
+    .col-45,
     .col-5,
+    .col-55,
     .col-6,
+    .col-65,
     .col-7,
+    .col-75,
     .col-8,
+    .col-85,
     .col-9,
+    .col-95,
     .col-10 {
         width: 100%;
     }
